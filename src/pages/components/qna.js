@@ -42,7 +42,7 @@ export default function Qna({ qnaIndex }) {
       </div>
 
       {isOpen && (
-        <p class="px-10 font-bodonimt text-text text-xl">{QnA[qnaIndex].A}</p>
+        <p class="px-10 pt-5 font-bodonimt text-text text-xl">{QnA[qnaIndex].A}</p>
       )}
     </div>
   );

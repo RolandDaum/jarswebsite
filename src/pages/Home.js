@@ -4,28 +4,11 @@ import mouse from './assets/mouse.png'
 import WhyCard from './components/WhyCard';
 import PriceCard from './components/PriceCard';
 import QnA from './components/qna';
+import RatingCard from './components/rating';
 
 export default function Home() {
-
-    function getMaxWidthClass() {
-        const screenWidth = window.innerWidth;
-        const Desktop = null
-        const Tablet = null
-        const Phone = null
-
-        if (screenWidth >= 1300) {
-            Desktop = true 
-        }
-        else if ( screenWidth >= 1070) {
-            Tablet = true
-        } 
-        else if (screenWidth < 1070) {
-            Tablet = true
-        }
-    }
-
     return (
-        <div class="w-full bg-background h-full flex flex-col items-center">
+        <div class="w-screen m-0 p-0 bg-background h-full flex flex-col items-center select-none">
             <section class="bg-background flex flex-row justify-between items-start py-10 px-10 max-w-screen-xl w-full h-full">
                 <div class="mr-10 flex flex-col max-w-xl">
                     <h1 class="font-impact text-text text-5xl bg-primary-default p-10 rounded ">Kompaktes Design<br></br>aus dem Glas</h1>
@@ -55,7 +38,7 @@ export default function Home() {
                     <WhyCard textIndex={2}></WhyCard>
                 </div>
             </section>
-            <section className="home" class="bg-background flex flex-col justify-center items-center py-10 px-10 max-w-screen-xl w-full h-fit">
+            <section class="bg-background flex flex-col justify-center items-center py-10 px-10 max-w-screen-xl w-full h-fit">
                 <div class="flex flex-col justify-center items-center">
                     <h1 class="text-text font-impact text-6xl">Pricing</h1>
                     <h2 class="text-text font-bodonimt text-xl">Schauen sie sich unsere Preispläne an!</h2>
@@ -66,13 +49,24 @@ export default function Home() {
                     <PriceCard levelIndex={2}></PriceCard>
                 </div>
             </section>
-            <section className="home" class="bg-background flex flex-col justify-center items-center py-10 px-10 max-w-screen-xl w-full h-fit">
+            <section class="bg-background flex flex-col justify-center items-center py-10 px-10 max-w-screen-xl w-full h-fit">
                 <h1 class="text-text font-impact text-6xl">Fragen und Antworten</h1>
-                <div class="flex flex-col justify-centers items-stretch my-10 w-192">
+                <div class="flex flex-col justify-centers items-stretch my-10 w-full">
                     <QnA qnaIndex={0}></QnA>
                     <QnA qnaIndex={1}></QnA>
                     <QnA qnaIndex={2}></QnA>
                     <QnA qnaIndex={3}></QnA>
+                </div>
+            </section>
+            <section class="bg-background flex flex-col justify-center items-center py-10 px-10 max-w-screen-xl w-full h-fit">
+                <div class="flex flex-col justify-center items-center">
+                    <h1 class="text-text font-impact text-6xl">Bewertungen</h1>
+                    <h2 class="text-text font-bodonimt text-xl">Was unsere realen Kunden von uns denken.</h2>
+                </div>
+                <div class="flex flex-row items-stretch my-10 w-full">
+                    <RatingCard Userindex={0}></RatingCard>
+                    <RatingCard Userindex={1}></RatingCard>
+                    <RatingCard Userindex={2}></RatingCard>
                 </div>
             </section>
         </div>

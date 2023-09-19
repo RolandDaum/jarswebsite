@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'
 
 export default function Navbar() {
     return (
-        <nav className="Navbar" class="h-fit w-screen pt-10 flex flex-row justify-around items-center bg-background">
+        <nav className="Navbar" class="h-fit w-screen pt-10 flex flex-row justify-around items-center bg-background select-none">
             <NavLink to='/'>
                 <div class="flex flex-row justify-center items-center">
                     <img src={logo} class="h-16"></img>
