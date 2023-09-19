@@ -37,7 +37,7 @@ export default function Qna({ qnaIndex }) {
         <img
           src={cross}
           style={{ transform: isOpen ? 'rotate(45deg)' : 'rotate(0deg)' }}
-          class=" h-7 "
+          class=" h-7 transition-transform"
         />
       </div>
 
