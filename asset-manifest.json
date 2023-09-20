@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/jars/static/css/main.d3b7b207.css",
-    "main.js": "/jars/static/js/main.30d089df.js",
+    "main.css": "/jars/static/css/main.d3c1248b.css",
+    "main.js": "/jars/static/js/main.adfec4ac.js",
     "static/media/character.png": "/jars/static/media/character.b7161e2e83b752eef0a7.png",
     "static/media/logo.png": "/jars/static/media/logo.a0b3ac2f35688ca2ae86.png",
     "static/media/Impact.ttf": "/jars/static/media/Impact.0294f8285a2493417c09.ttf",
     "static/media/mouse.png": "/jars/static/media/mouse.a22173bd2aa0916e41dd.png",
     "static/media/Bodoni MT.TTF": "/jars/static/media/Bodoni MT.e12ddeb3ebf232429d83.TTF",
     "index.html": "/jars/index.html",
-    "main.d3b7b207.css.map": "/jars/static/css/main.d3b7b207.css.map",
-    "main.30d089df.js.map": "/jars/static/js/main.30d089df.js.map"
+    "main.d3c1248b.css.map": "/jars/static/css/main.d3c1248b.css.map",
+    "main.adfec4ac.js.map": "/jars/static/js/main.adfec4ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3b7b207.css",
-    "static/js/main.30d089df.js"
+    "static/css/main.d3c1248b.css",
+    "static/js/main.adfec4ac.js"
   ]
 }
