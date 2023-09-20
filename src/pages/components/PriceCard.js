@@ -11,7 +11,7 @@ export default function PriceCard( {levelIndex} ) {
         [false,true,true,true,true,'Enterprise']
     ]
     return (
-        <div class=" even:bg-primary-500 odd:bg-secondary-500 even:bg-opacity-50 odd:bg-opacity-25 p-5 mx-5 roudned flex flex-col justify-end items-center">
+        <div class=" even:bg-primary-500 odd:bg-secondary-500 even:bg-opacity-50 odd:bg-opacity-25 p-5 mx-5 roudned flex flex-col justify-end items-center TBP:min-w-full TBP:snap-center TBP:w-full">
             {lvl[levelIndex][0] ? (
                 <div class="flex flex-row justify-center items-center">
                     <img src={star} class="h-5"></img>
@@ -20,7 +20,7 @@ export default function PriceCard( {levelIndex} ) {
             ) : null}
             <h1 class=" font-impact text-3xl m-5 text-text">{lvl[levelIndex][5]}</h1>
             <h2 class="font-bodonimt m-3 text-xl text-text">$0.00 / Projekt</h2>
-            <div>
+            <div class="flex flex-col justify-start items-center">
                 <Offer op={lvl[levelIndex][1]}></Offer>
                 <Offer op={lvl[levelIndex][2]}></Offer>
                 <Offer op={lvl[levelIndex][3]}></Offer>

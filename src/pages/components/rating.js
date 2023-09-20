@@ -12,7 +12,7 @@ export default function RatingCard( {Userindex} ) {
     ]
 
     return(
-        <div class="bg-secondary-default bg-opacity-25 rounded flex flex-col justify-start items-start p-10 mx-5">
+        <div class="bg-secondary-default bg-opacity-25 rounded flex flex-col justify-start items-start p-10 mx-5 TBP:min-w-full TBP:snap-center">
             <div class="flex flex-row justify-start items-center">
                 <img src={content[Userindex].ProfPic} class="pr-5"></img>
                 <div class="flex flex-col justify-center items-start font-bodonimt text-text">

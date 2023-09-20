@@ -10,7 +10,7 @@ export default function WhyCard( { textIndex } ) {
     ]
 
     return (
-        <div class="w-full py-10 px-10 mx-5 bg-primary-default rounded flex flex-col justify-start items-center">
+        <div class="w-full p-10 mx-5 bg-primary-default rounded flex flex-col justify-start items-center TBP:min-w-full TBP:snap-center TBP:p-5">
             <img src={text[textIndex].icon} class="h-20"></img>
             <h1 class=" font-bodonimt text-text text-4xl my-8">{text[textIndex].title}</h1>
             <p class="font-bodonimt text-text text-2xl hyphens-auto" lang='de'>{text[textIndex].text}</p>

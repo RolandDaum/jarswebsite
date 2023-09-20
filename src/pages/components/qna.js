@@ -31,7 +31,7 @@ export default function Qna({ qnaIndex }) {
   };
 
   return (
-    <div class="flex flex-col w-full bg-secondary-default rounded m-2 p-5">
+    <div class="flex flex-col w-full bg-secondary-default rounded m-2 p-5 TBP:m-0 TBP:my-2">
       <div onClick={toggleAnswer} class="flex flex-row justify-between items-center hover:cursor-pointer">
         <h1 class="mr-20 text-text font-bodonimt text-3xl">{QnA[qnaIndex].Q}</h1>
         <img
