@@ -4,7 +4,7 @@ import charachter from '../assets/character.png'
 
 export default function Footer() {
     return(
-        <div class="w-screen bg-background select-none desktop:pb-10 laptop:pb-0 overflow-hidden">
+        <div class="w-full m-0 bg-background select-none desktop:pb-10 laptop:pb-0 overflow-hidden">
             <div class="max-w-screen-xl mx-auto bg-text text-background font-bodonimt rounded rounded-t-xl TBP:items-center TBP:flex TBP:flex-col">
                 <div class="bg-primary-default flex flex-row justify-start items-center p-5 px-16 rounded-t TBP:justify-center">
                     <img src={logo} class="h-16"></img>
@@ -18,16 +18,16 @@ export default function Footer() {
                         </div>
                     </div>
                     <div class="TBP:my-10">
-                        <NavLink to="/">
+                        <NavLink to="/jars">
                             <p class=" font-impact text-3xl">Website</p>
                         </NavLink>
-                        <NavLink to="/">
+                        <NavLink to="/jars">
                             <p class="py-2 text-xl hover:underline">Projekte</p>
                         </NavLink>
-                        <NavLink to="/">
+                        <NavLink to="/jars">
                             <p class="py-2 text-xl hover:underline">News</p>
                         </NavLink>
-                        <NavLink to="/">
+                        <NavLink to="/jars">
                             <p class="py-2 text-xl hover:underline">Team</p>
                         </NavLink>
                     </div>

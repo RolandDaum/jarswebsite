@@ -51,7 +51,7 @@ function App() {
                 <header>
                     <Navbar></Navbar>
                 </header>
-                <main>
+                <main class="overflow-x-hidden">
                     <Routes>
                         <Route path="/jars" element={<Home />}/>
                         <Route path="/team" element={<Team />}/>
